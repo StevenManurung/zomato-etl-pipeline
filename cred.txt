@@ -1,0 +1,12 @@
+-- AWS -> SNOWFLAKE
+snowflake google login: steveee9890@gmail.com
+STORAGE_AWS_IAM_USER_ARN:arn:aws:iam::050451392045:user/mcfw1000-s
+STORAGE_AWS_ROLE_ARN    : arn:aws:iam::454634138109:role/snowflake-zomato-pipeline-s3-role
+STORAGE_AWS_EXTERNAL_ID : CK93554_SFCRole=3_RwEVaMybdPNAwECCGMZNNPfytQs=
+
+-- SNOWFLAKE -> DBT
+account-identifier: DSLNEED-UZ01913
+username: STEVEEE9890
+role: DBT_ROLE
+database: ZOMATO
+schema: STAGING
