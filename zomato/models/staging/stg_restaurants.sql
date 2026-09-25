@@ -13,3 +13,4 @@ FROM
   {{ source('raw', 'restaurants')}} 
 WHERE
   try_to_number(id) IS NOT NULL
+
