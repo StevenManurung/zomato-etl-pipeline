@@ -3,3 +3,4 @@ env/
 logs/
 cred.txt
 profiles.yml
+dags/.env
